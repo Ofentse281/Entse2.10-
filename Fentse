@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Entse FX Course</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background-color: #004d99;
+      color: white;
+      padding: 1em;
+      text-align: center;
+    }
+    .hero {
+      text-align: center;
+      padding: 20px;
+    }
+    .hero img {
+      max-width: 300px;
+      height: auto;
+    }
+    .hero h2 {
+      margin-top: 10px;
+      font-size: 1.5em;
+      color: #004d99;
+    }
+    .section {
+      padding: 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .contact-form {
+      display: flex;
+      flex-direction: column;
+    }
+    .contact-form input, .contact-form textarea {
+      margin-bottom: 10px;
+      padding: 10px;
+      font-size: 1em;
+    }
+    .contact-form button {
+      padding: 10px;
+      background-color: #004d99;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    footer {
+      background-color: #004d99;
+      color: white;
+      text-align: center;
+      padding: 1em;
+      margin-top: 20px;
+    }
+    @media (max-width: 600px) {
+      .hero img {
+        max-width: 80%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Entse FX Course</h1>
+</header>
+
+<div class="hero">
+  <img src="YOUR_IMAGE_FILENAME_HERE.png" alt="Entse FX Logo" />
+  <h2>Vision is a key to success</h2>
+</div>
+
+<section class="section">
+  <h2>Live Forex Chart</h2>
+  <!-- TradingView Widget BEGIN -->
+  <div class="tradingview-widget-container">
+    <div id="tradingview_88b08"></div>
+    <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+    <script type="text/javascript">
+    new TradingView.widget({
+      "width": "100%",
+      "height": 400,
+      "symbol": "USDZAR",
+      "interval": "D",
+      "timezone": "Etc/UTC",
+      "theme": "light",
+      "style": "1",
+      "locale": "en",
+      "toolbar_bg": "#f1f3f6",
+      "enable_publishing": false,
+      "allow_symbol_change": true,
+      "container_id": "tradingview_88b08"
+    });
+    </script>
+  </div>
+  <!-- TradingView Widget END -->
+</section>
+
+<section class="section">
+  <h2>About Entse FX Course</h2>
+  <p>At Entse FX Course, we provide professional Forex trading education and market analysis focused on the South African Rand (ZAR). Our mission is to empower traders with the right knowledge and tools to succeed in the global Forex market.</p>
+</section>
+
+<section class="section">
+  <h2>Contact Us</h2>
+  <form class="contact-form" action="mailto:Ofentseleballo08@gmail.com" method="POST" enctype="text/plain">
+    <input type="text" name="name" placeholder="Your Name" required />
+    <input type="email" name="email" placeholder="Your Email" required />
+    <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+  <p>Or contact us directly at: <strong>060 864 0627</strong></p>
+</section>
+
+<footer>
+  &copy; 2025 Entse FX Course. All rights reserved.
+</footer>
+
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Entse FX Course</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background-color: #004d99;
+      color: white;
+      padding: 1em;
+      text-align: center;
+    }
+    .hero {
+      text-align: center;
+      padding: 20px;
+    }
+    .hero img {
+      max-width: 300px;
+      height: auto;
+    }
+    .hero h2 {
+      margin-top: 10px;
+      font-size: 1.5em;
+      color: #004d99;
+    }
+    .section {
+      padding: 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .contact-form {
+      display: flex;
+      flex-direction: column;
+    }
+    .contact-form input, .contact-form textarea {
+      margin-bottom: 10px;
+      padding: 10px;
+      font-size: 1em;
+    }
+    .contact-form button {
+      padding: 10px;
+      background-color: #004d99;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    footer {
+      background-color: #004d99;
+      color: white;
+      text-align: center;
+      padding: 1em;
+      margin-top: 20px;
+    }
+    @media (max-width: 600px) {
+      .hero img {
+        max-width: 80%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Entse FX Course</h1>
+</header>
+
+<div class="hero">
+  <img src="YOUR_IMAGE_FILENAME_HERE.png" alt="Entse FX Logo" />
+  <h2>Vision is a key to success</h2>
+</div>
+
+<section class="section">
+  <h2>Live Forex Chart</h2>
+  <!-- TradingView Widget BEGIN -->
+  <div class="tradingview-widget-container">
+    <div id="tradingview_88b08"></div>
+    <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+    <script type="text/javascript">
+    new TradingView.widget({
+      "width": "100%",
+      "height": 400,
+      "symbol": "USDZAR",
+      "interval": "D",
+      "timezone": "Etc/UTC",
+      "theme": "light",
+      "style": "1",
+      "locale": "en",
+      "toolbar_bg": "#f1f3f6",
+      "enable_publishing": false,
+      "allow_symbol_change": true,
+      "container_id": "tradingview_88b08"
+    });
+    </script>
+  </div>
+  <!-- TradingView Widget END -->
+</section>
+
+<section class="section">
+  <h2>About Entse FX Course</h2>
+  <p>At Entse FX Course, we provide professional Forex trading education and market analysis focused on the South African Rand (ZAR). Our mission is to empower traders with the right knowledge and tools to succeed in the global Forex market.</p>
+</section>
+
+<section class="section">
+  <h2>Contact Us</h2>
+  <form class="contact-form" action="mailto:Ofentseleballo08@gmail.com" method="POST" enctype="text/plain">
+    <input type="text<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Entse FX Course</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background-color: #004d99;
+      color: white;
+      padding: 1em;
+      text-align: center;
+    }
+    .hero {
+      text-align: center;
+      padding: 20px;
+    }
+    .hero img {
+      max-width: 300px;
+      height: auto;
+    }
+    .hero h2 {
+      margin-top: 10px;
+      font-size: 1.5em;
+      color: #004d99;
+    }
+    .section {
+      padding: 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .contact-form {
+      display: flex;
+      flex-direction: column;
+    }
+    .contact-form input, .contact-form textarea {
+      margin-bottom: 10px;
+      padding: 10px;
+      font-size: 1em;
+    }
+    .contact-form button {
+      padding: 10px;
+      background-color: #004d99;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    footer {
+      background-color: #004d99;
+      color: white;
+      text-align: center;
+      padding: 1em;
+      margin-top: 20px;
+    }
+    @media (max-width: 600px) {
+      .hero img {
+        max-width: 80%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Entse FX Course</h1>
+</header>
+
+<div class="hero">
+  <img src="YOUR_IMAGE_FILENAME_HERE.png" alt="Entse FX Logo" />
+  <h2>Vision is a key to success</h2>
+</div>
+
+<section class="section">
+  <h2>Live Forex Chart</h2>
+  <!-- TradingView Widget BEGIN -->
+  <div class="tradingview-widget-container">
+    <div id="tradingview_88b08"></div>
+    <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+    <script type="text/javascript">
+    new TradingView.widget({
+      "width": "100%",
+      "height": 400,
+      "symbol": "USDZAR",
+      "interval": "D",
+      "timezone": "Etc/UTC",
+      "theme": "light",
+      "style": "1",
+      "locale": "en",
+      "toolbar_bg": "#f1f3f6",
+      "enable_publishing": false,
+      "allow_symbol_change": true,
+      "container_id": "tradingview_88b08"
+    });
+    </script>
+  </div>
+  <!-- TradingView Widget END -->
+</section>
+
+<section class="section">
+  <h2>About Entse FX Course</h2>
+  <p>At Entse FX Course, we provide professional Forex trading education and market analysis focused on the South African Rand (ZAR). Our mission is to empower traders with the right knowledge and tools to succeed in the global Forex market.</p>
+</section>
+
+<section class="section">
+  <h2>Contact Us</h2>
+  <form class="contact-form" action="mailto:Ofentseleballo08@gmail.com" method="POST" enctype="text/plain">
+    <input type="text" name="name" placeholder="Your Name" required />
+    <input type="email" name="email" placeholder="Your Email" required />
+    <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+  <p>Or contact us directly at: <strong>060 864 0627</strong></p>
+</section>
+
+<footer>
+  &copy; 2025 Entse FX Course. All rights reserved.
+</footer>
+
+</body>
+</html>" name="name" placeholder="Your Name" required />
+    <input type="email" name="email" placeholder="Your Email" required />
+    <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+  <p>Or contact us directly at: <strong>060 864 0627</strong></p>
+</section>
+
+<footer>
+  &copy; 2025 Entse FX Course. All rights reserved.
+</footer>
+
+</body>
+</html>
